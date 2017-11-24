@@ -3,7 +3,7 @@ from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 #BeatifulSoup parse the html text
 #opening the connection and grapping the info
-my_url="https://www.flipkart.com/search?q=dslr&sid=jek/p31/trv&as=on&as-show=on&otracker=start&as-pos=1_1_ic_dslr"
+my_url="eCommerece website url"
 uClient=uReq(my_url)
 page_html=uClient.read()
 uClient.close()
